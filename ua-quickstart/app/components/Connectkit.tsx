@@ -8,7 +8,7 @@ import { authWalletConnectors } from "@particle-network/connectkit/auth";
 import { EntryPosition, wallet } from "@particle-network/connectkit/wallet";
 // embedded wallet end
 // evm start
-import { sepolia } from "@particle-network/connectkit/chains";
+import { mainnet } from "@particle-network/connectkit/chains";
 import { evmWalletConnectors } from "@particle-network/connectkit/evm";
 // evm end
 
@@ -58,7 +58,7 @@ const config = createConfig({
     }),
     // embedded wallet end
   ],
-  chains: [sepolia],
+  chains: [mainnet],
 });
 
 // Wrap your application with this component.
