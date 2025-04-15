@@ -1,13 +1,14 @@
-import { ParticleConnectkit } from "../app/components/Connectkit";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+import { ParticleAuthkit } from "../app/components/Authkit";
+
 export const metadata: Metadata = {
-  title: "Universal Accounts Quickstart",
-  description: "A Particle Connect starter. Add Universal Accounts to it.",
+  title: "Particle Auth app",
+  description: "App leveraging Particle Auth for social logins.",
 };
 
 export default function RootLayout({
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ParticleConnectkit>{children}</ParticleConnectkit>
+        <ParticleAuthkit>{children}</ParticleAuthkit>
       </body>
     </html>
   );

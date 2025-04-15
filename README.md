@@ -32,3 +32,5 @@ npm run dev
 # or
 yarn dev
 ```
+
+Check the Universal Accounts Quickstart on the [Particle Docs](https://particle.network/docs/) to have a full rundown of the implementation.
