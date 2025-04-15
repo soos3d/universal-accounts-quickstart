@@ -1,12 +1,12 @@
 # Universal Accounts Quickstart
 
-A starter repository demonstrating how to integrate Particle Network's Universal Accounts into a Next.js application. This project showcases a simple implementation of Web3 authentication using Particle Connect.
+A starter repository demonstrating how to integrate Particle Network's Universal Accounts into a Next.js application. This project showcases a simple implementation of Web3 authentication using Particle Auth.
 
 ## Quick Start
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/universal-accounts-quickstart.git
+git clone https://github.com/soos3d/universal-accounts-quickstart.git
 cd universal-accounts-quickstart/ua-quickstart
 ```
 
