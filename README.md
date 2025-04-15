@@ -33,4 +33,4 @@ npm run dev
 yarn dev
 ```
 
-Check the Universal Accounts Quickstart on the [Particle Docs](https://particle.network/docs/) to have a full rundown of the implementation.
+Check the Universal Accounts Quickstart on the [Particle Docs](https://uasdev.mintlify.app/universal-accounts/cha/web-quickstart) to have a full rundown of the implementation.
