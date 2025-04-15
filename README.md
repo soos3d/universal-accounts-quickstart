@@ -20,10 +20,10 @@ yarn
 3. Create a `.env` file in the `ua-quickstart` directory with the following variables:
 
 ```env
-NEXT_PUBLIC_PROJECT_ID=your_particle_project_id
-NEXT_PUBLIC_CLIENT_KEY=your_particle_client_key
-NEXT_PUBLIC_APP_ID=your_particle_app_id
-NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_walletconnect_project_id  # Optional
+NEXT_PUBLIC_PROJECT_ID=""
+NEXT_PUBLIC_CLIENT_KEY=""
+NEXT_PUBLIC_APP_ID=""
+NEXT_PUBLIC_UA_PROJECT_ID=""
 ```
 
 4. Start the development server:
