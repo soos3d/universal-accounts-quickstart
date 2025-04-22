@@ -1,7 +1,6 @@
 "use client";
 
 import { useConnect, useEthereum } from "@particle-network/authkit";
-import { arbitrum } from "@particle-network/authkit/chains";
 import {
   CHAIN_ID,
   SUPPORTED_TOKEN_TYPE,
@@ -153,7 +152,6 @@ export default function Home() {
         address: "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
       }, // USDT on Arbitrum
       amount: "0.1",
-      rpcUrl: arbitrum.rpcUrls.default.http[0], // RPC URL for the target chain
       receiver: "0x5C1885c0C6A738bAdAfE4dD811A26B546431aD89",
     });
 

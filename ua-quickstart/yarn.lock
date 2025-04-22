@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@GDdark/universal-account@^1.0.9":
-  version "1.0.10"
-  resolved "https://npm.pkg.github.com/download/@GDdark/universal-account/1.0.10/cf62af80e6c30a9bf3c0bcc655d521e9cc88844d#cf62af80e6c30a9bf3c0bcc655d521e9cc88844d"
-  integrity sha512-vxTE/zy5bo0pKX4r4tvm+qh9jJ2gwDVosebVLRWZEw+QrVU16N1cHW8MBwK6EF6CSlNh4phRpxKjAevHMxZ/Uw==
+"@GDdark/universal-account@^1.0.12":
+  version "1.0.12"
+  resolved "https://npm.pkg.github.com/download/@GDdark/universal-account/1.0.12/03d8a6e67d15357ef96a0fdc61132ec97df555b4#03d8a6e67d15357ef96a0fdc61132ec97df555b4"
+  integrity sha512-sjJI5hoWzSVPLikke9Jk7oHq2s8upR1lrW3JX5NVs2WC9pKTUw95IJ0WJbK2xY2N06Hzcua417KOE7mK5kZW8Q==
   dependencies:
     "@coral-xyz/anchor" "^0.30.1"
     "@noble/hashes" "^1.7.1"
@@ -8416,6 +8416,7 @@ word-wrap@^1.2.5, word-wrap@~1.2.3:
   integrity sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
