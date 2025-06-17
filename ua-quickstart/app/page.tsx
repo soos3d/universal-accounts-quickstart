@@ -6,7 +6,7 @@ import {
   SUPPORTED_TOKEN_TYPE,
   IAssetsResponse,
   UniversalAccount,
-} from "@GDdark/universal-account";
+} from "@particle-network/universal-account-sdk";
 import { Interface, parseEther, toBeHex } from "ethers";
 import { useEffect, useState } from "react";
 import styles from "./styles.module.css";
