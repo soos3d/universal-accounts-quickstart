@@ -55,7 +55,7 @@ export default function Home() {
         // If not set it will use auto-slippage
         tradeConfig: {
           slippageBps: 100, // 1% slippage tolerance
-          universalGas: true, // Enable gas abstraction
+          universalGas: true, // Prioritize PARTI token to pay for gas
           //usePrimaryTokens: [SUPPORTED_TOKEN_TYPE.SOL], // Specify token to use as source (only for swaps)
         },
       });
