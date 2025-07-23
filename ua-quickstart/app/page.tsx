@@ -49,12 +49,15 @@ export default function Home() {
     if (connected && address) {
       // Create new UA instance when user connects
       const ua = new UniversalAccount({
-        projectId: process.env.NEXT_PUBLIC_UA_PROJECT_ID || "",
+        projectId: process.env.NEXT_PUBLIC_PROJECT_ID!,
+        projectClientKey: process.env.NEXT_PUBLIC_CLIENT_KEY!,
+        projectAppUuid: process.env.NEXT_PUBLIC_APP_ID!,
         ownerAddress: address,
         // If not set it will use auto-slippage
         tradeConfig: {
           slippageBps: 100, // 1% slippage tolerance
           universalGas: true, // Enable gas abstraction
+          //usePrimaryTokens: [SUPPORTED_TOKEN_TYPE.SOL], // Specify token to use as source (only for swaps)
         },
       });
       console.log("UniversalAccount initialized:", ua);
@@ -146,13 +149,12 @@ export default function Home() {
       return;
     }
 
-    const transaction = await universalAccount.createTransferTransaction({
+    const transaction = await universalAccount.createBuyTransaction({
       token: {
         chainId: CHAIN_ID.ARBITRUM_MAINNET_ONE,
         address: "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
       }, // USDT on Arbitrum
-      amount: "0.1",
-      receiver: "0x5C1885c0C6A738bAdAfE4dD811A26B546431aD89",
+      amountInUSD: "1",
     });
 
     const signature = await provider.signMessage(transaction.rootHash);
@@ -252,7 +254,7 @@ export default function Home() {
               <div className={styles.actionCard}>
                 <h3 className={styles.actionTitle}>Transfer Transaction</h3>
                 <p className={styles.actionDescription}>
-                  Send $0.1 USDT on Arbitrum using any token.
+                  Buy $1 USDT on Arbitrum using any token.
                 </p>
                 <button
                   onClick={handleTransferTransaction}

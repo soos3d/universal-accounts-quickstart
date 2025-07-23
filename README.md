@@ -25,7 +25,7 @@ yarn
 
 First, create a project in the [Particle Dashboard](https://dashboard.particle.network/) to get the required credentials.
 
-> The same project ID is used for both Particle Auth and Universal Accounts.
+> The same project keys are used for both Particle Auth and Universal Accounts.
 
 In this example, we use Particle Auth for user authentication. However, you can use any EOA-compatible provider or signer. Regardless of your choice, you’ll still need to create a project in the Particle Dashboard and initialize Universal Accounts using the project credentials.
 
