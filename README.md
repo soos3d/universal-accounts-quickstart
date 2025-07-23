@@ -37,7 +37,6 @@ Create a .env file in the root of the ua-quickstart directory and add the follow
 NEXT_PUBLIC_PROJECT_ID=""
 NEXT_PUBLIC_CLIENT_KEY=""
 NEXT_PUBLIC_APP_ID=""
-NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=""
 ```
 
 4. Run the development server
