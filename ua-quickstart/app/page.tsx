@@ -243,7 +243,7 @@ export default function Home() {
                   <p className="text-gray-600 text-sm mt-1">
                     Aggregated{" "}
                     <a
-                      className="text-purple-600 hover:underline"
+                      className="text-purple-700 hover:underline"
                       href="https://developers.particle.network/universal-accounts/cha/chains#primary-assets"
                     >
                       primary assets
