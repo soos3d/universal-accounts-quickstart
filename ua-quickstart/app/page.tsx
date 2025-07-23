@@ -252,7 +252,7 @@ export default function Home() {
               </div>
 
               <div className={styles.actionCard}>
-                <h3 className={styles.actionTitle}>Transfer Transaction</h3>
+                <h3 className={styles.actionTitle}>Swap Transaction</h3>
                 <p className={styles.actionDescription}>
                   Buy $1 USDT on Arbitrum using any token.
                 </p>
@@ -261,7 +261,7 @@ export default function Home() {
                   disabled={!universalAccount}
                   className={styles.actionButton}
                 >
-                  Send Transfer Transaction
+                  Buy USDT
                 </button>
               </div>
             </div>
