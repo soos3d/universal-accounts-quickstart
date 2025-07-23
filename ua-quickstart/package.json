@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@particle-network/universal-account-sdk": "^1.0.1",
     "@coral-xyz/anchor": "^0.30.1",
     "@noble/hashes": "^1.7.1",
     "@particle-network/authkit": "^2.0.19",
+    "@particle-network/universal-account-sdk": "^1.0.3",
     "@particle-network/wallet": "^2.0.8",
     "@solana/spl-token": "^0.4.9",
     "@solana/web3.js": "^1.98.0",
